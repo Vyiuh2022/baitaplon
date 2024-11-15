@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #0A437F;
+  color: white;
+  z-index: 100;
+}
+
+.navbar-search {
+  font: "Noto Sans";
+  font-size: 14px;
+  height: 90px;
+  width: 100%;
+}
+
+.img_heading {
+  float: left;
+  width: 144px;
+  height: 44px;
+}
+
+.navbar_textsearch {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar_textsearch #input_search {
+  width: 50%;
+  height: 40px;
+  background-color: #FFFFFF;
+  margin: 0;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.navbar_textsearch button {
+  width: 60px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 0px 7px 7px 0px;
+  margin-left: 0;
+}
+
+.login {
+  width: 300px;
+  height: 90px;
+  float: right;
+  padding-top: -20px;
+}
+
+.login-form {
+  height: 50px;
+  width: 150px;
+  float: left;
+}
+
+.img_login {
+  height: 28px;
+  width: 28px;
+  float: left;
+
+}
+
+.text_login {
+  width: 90px;
+  height: 40px;
+  float: right;
+}
+
+.cart {
+  height: 40px;
+  width: 150px;
+  float: right;
+  padding: 10px;
+
+
+}
+
+/* Các phần CSS khác không thay đổi */
+
+
+.menu-heading {
+  width: 100%;
+  height: 40px;
+  background-color: #0A437F;
+}
+
+/* Style menu */
+
+/* menu */
+.menu ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu {
+
+  width: 100%;
+
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  position: relative;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style submenu */
+.menu ul li ul.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0A437F;
+}
+
+.menu ul li:hover ul.submenu {
+  display: block;
+}
+
+.menu ul li ul.submenu li {
+  width: 200px;
+}
+
+.menu ul li ul.submenu li a {
+  padding: 4px 20px;
+}
+
+.menu ul li ul.submenu li a:hover {
+  color: orange;
+}
+
+section {
+  margin-top: 160px;
+  /* Chiều cao của header */
+  width: 100%;
+  background-color: rgb(251, 251, 251);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.anhtrai {
+  margin-top:20%;
+  margin-left: 5%;
+  width: 100%;
+  height: 89%;
+}
+
+.anhphai {
+  margin-top:20%;
+  margin-left: -5%;
+  width: 100%;
+  height: 89%;
+}
+
+#anhgiua1 {
+  margin-top:10%;
+  width: 90%;
+  height: 89%;
+  margin-left: 5%;
+}
+
+#anhgiua2 {
+  margin-top:10%;
+  width: 90%;
+  height: 89%;
+  margin-left: 5%;
+}
+
+.frame {
+  border: 1px solid #ccc;
+  margin-top: 40px;
+  text-align: center;
+  width: 90%; /* Thay đổi kích thước theo phần trăm */
+  max-width: 400px; /* Giới hạn kích thước tối đa */
+}
+
+.frame img {
+  display: block;
+  margin: 0 auto;max-width: 100%;
+  height: auto;
+}
+
+.frame p {
+  margin-top: 10px;
+}
+
+.icon3 {
+  width: 45px;
+}
+
+.red-divider {
+  height: 4px;
+  /* Điều chỉnh chiều cao theo ý muốn */
+  width: 70px;
+  background-color: rgb(255, 13, 13);
+  margin: 0 auto;
+  /* Căn giữa */
+}
+
+.product-item {
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  height: 100%;
+  /* Đảm bảo các sản phẩm trong cùng một hàng có chiều cao bằng nhau */
+}
+
+.product-item img {
+  max-width: 100%;
+  height: 100%;
+  /* Đảm bảo hình ảnh sẽ điều chỉnh kích thước mà không bị biến dạng */
+  object-fit: cover;
+  /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+.product-info {
+  margin-top: 10px;
+}
+
+.product-name {
+  color: #000;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+.discount-price {
+  color: red;
+}
+
+.original-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.red-text {
+  color: red;
+}
+
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.menu ul li:hover {
+  background-color: rgb(3, 18, 64);
+}
+
+
+
+
+footer {
+  width: 101%;
+  min-height: 450px;
+  background-color: #0A437F;
+  color: white;
+  overflow: hidden;
+}
+
+.footer-row1 {
+  height: 100px;
+  width: 100%;
+}
+
+.footer-row2 {
+  height: 200px;
+  width: 100%;
+}
+
+.footer-row2 .row .col li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-row3 {
+  height: 40px;
+  width: 100%;
+}

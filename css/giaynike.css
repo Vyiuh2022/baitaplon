@@ -1,0 +1,104 @@
+.breadcrumb {
+    background-color: #f2f2f2;
+    /* Màu nền xám nhạt */
+    padding: 5px 15px;
+    /* Khoảng cách padding */
+    text-align: left;
+    /* Căn văn bản sang trái */
+    margin-left: -50px;
+}
+
+.breadcrumb p {
+    margin: 0;
+    /* Xóa margin */
+    font-size: 15px;
+    /* Cỡ chữ */
+    color: #333;
+    /* Màu chữ */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-weight: bold;
+    color: black;
+    border-color: black;
+}
+/* Loại bỏ chấm tròn mặc định cho tất cả các mục */
+ul li {
+  list-style-type: none; /* Thay đổi loại chấm từ mặc định sang none */
+}
+
+/* Thêm chấm tròn cho mục cụ thể có lớp chamtron */
+ul li.chamtron {
+  list-style-type: disc; /* Áp dụng chấm tròn cho mục có lớp chamtron */
+}
+
+.square-input {
+    display: inline-block;
+    width: 50px; /* Chiều rộng của ô vuông */
+    height: 50px; /* Chiều cao của ô vuông */
+    border: 1px solid #ccc; /* Viền của ô vuông */
+    margin-right: 5px; /* Khoảng cách giữa các ô vuông */
+    text-align: center; /* Căn giữa nội dung trong ô vuông */
+    line-height: 50px; /* Chiều cao dòng chữ */
+    cursor: pointer; /* Con trỏ khi rê chuột vào ô vuông */
+  }
+  
+  .square-input input[type="radio"] {
+    display: none; /* Ẩn radio button */
+  }
+  
+  .square-input input[type="radio"]:checked + label {
+    color: #042188; /* Màu chữ khi ô vuông được chọn */
+    font-weight: bold;
+  }
+  
+  .square-input:hover {
+    border: 2px solid #042188;
+    font-weight: bold;
+  }
+  
+  .square-input:active {
+    border: 2px solid #042188; /* Màu viền khi được chọn */
+    font-weight: bold;
+  }
+
+  .image-container {
+    margin-right: 5px; /* Khoảng cách giữa các hình */
+  }
+  
+  .image-container img {
+    width: 100%; /* Đặt kích thước của hình nhỏ */
+    height: auto; /* Đảm bảo tỷ lệ hình ảnh không bị biến đổi */
+    padding: 4px;
+  }
+
+  
+  /* giày nike nam */
+  .box {
+    width: 93%; /* Chiều rộng của các khung là 100% */
+    height: 80px; /* Hoặc bất kỳ chiều cao nào bạn muốn */
+    background-color: #ffffff; /* Màu nền của các khung */
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+  }
+  .box img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .horizontal-line {
+    text-align: center;
+    border-bottom: 1px solid #8d8a8a; /* Màu và kiểu đường gạch ngang */
+    line-height: 0.1em; /* Độ cao của dòng */
+    margin: 10px 0 20px; /* Khoảng cách dòng */
+    width: 100%;
+  }
+  
+  .horizontal-line span {
+    background-color: #fff; /* Màu nền cho chữ "HẾT SẢN PHẨM" */
+    padding: 0 10px; /* Khoảng cách giữa chữ và đường gạch */
+    color: #8d8a8a;
+  }
+  
